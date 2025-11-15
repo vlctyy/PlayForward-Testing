@@ -1,0 +1,65 @@
+/* Add these styles to src/components/Game.css */
+
+.GameScreen {
+  position: relative;
+  width: 100%;
+  max-width: 420px;
+  margin: auto;
+  padding: 10px;
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.HUD {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.HUD-item h4 {
+  margin: 0 0 5px 0;
+  font-size: 0.9rem;
+  color: #888;
+  font-weight: 500;
+}
+
+.HUD-item p {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.Game-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(26, 26, 26, 0.85);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 10;
+  text-align: center;
+}
+
+.Button {
+  padding: 15px 40px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #00aaff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.Button:hover {
+  background-color: #0088cc;
+}
